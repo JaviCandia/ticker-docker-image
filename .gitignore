@@ -1,0 +1,23 @@
+# Node dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Test outputs and snapshots
+coverage/
+*.test.js.snap
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Process IDs or temp files
+*.pid
