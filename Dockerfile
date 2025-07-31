@@ -1,4 +1,9 @@
-FROM node:19.2-alpine3.16
+# Uncomment the line below to build for a specific platform, e.g., linux/amd64
+FROM --platform=$BUILDPLATFORM node:19.2-alpine3.16
+
+# Use the line below to build for the current platform
+# FROM node:19.2-alpine3.16
+
 
 # Available folders: /app /var /lib
 # cd /app
